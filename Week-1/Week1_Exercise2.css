@@ -1,124 +1,124 @@
 
 html, body{
-    height: 100%;
-  }
-  body{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato';
-    background-color: white;
-    margin: 0;
-    font-size: 1em;
-  }
-  
-  main{
-    display: flex;
-    flex: 1 0 auto;
-  }
-  
-  .album-content{
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-    margin: 0;
-  }
-  .album-cover{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    background-color: rgb(71, 70, 70);
-    flex: 0 0 30%;
-    padding: 40px;
-  }
-  .cover-info{
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-    padding-left: 50px;
-  }
-  .cover-info div:nth-child(1){
-    margin-bottom: auto;
-  }
-  
-  .cover-info div:nth-child(2){
-    margin-top: 10px;
-    font-size: small;
-  }
-  .cover-info div:nth-child(2) i.fa{
-    font-size: small;
-    padding: 0 10px;
-    font-weight: 300;
-  }
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato';
+  background-color: white;
+  margin: 0;
+  font-size: 1em;
+}
 
-  .cover-info div:nth-child(1) p:first-child{
-    font-size: large;
-    margin-top: 0;
-    
-  }
-  .cover-info div:nth-child(1) p:not(:first-child){
-    font-size: small;
-    margin: 0;
-  }
-  .music-list{
-    display: flex;
-    flex: 1 0 auto;
-    flex-direction: column;
-    margin: 5px;
-  }
-  li{
-    display: flex;
-    flex: 0 0 auto;
-    margin: 0 5px 0 -35px;
-    padding: 0px 10px;
-    
-  }
-  li p{
-    flex: 0 0 25%;
-    
-  }
-  li:nth-child(2n){
-    background-color: rgba(139, 139, 139, 0.397);
-  }
-  .cloud-sync{
-    color: blue;
-    padding: 2px;
-    border:solid 1px black;
-  }
-  aside{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex: 0 0 40px;
-    align-items: center;
-    background-color: whitesmoke;
-  }
-  aside i.las{
-    font-size: 1em;
-  }
-  footer {
-    display: flex;
-    flex: 0 0 90px;
-    padding: 15px;
-    justify-content: space-between;
-    color: #fff;
-    background-color: rgba(61, 100, 158, .9);
-  }
-  .now-playing {
-    display: flex;
-    margin-right: auto;
-    width: 100%;
-  }
-  .now-playing img{
-    padding-right: 15px;
-  }
-  .playing-controls{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-    width: 100%;
-  }
+main{
+  display: flex;
+  flex: 1 0 auto;
+}
 
+.album-content{
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  margin: 0;
+}
+.album-cover{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: rgb(71, 70, 70);
+  flex: 0 0 30%;
+  padding: 40px;
+}
+.cover-info{
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  padding-left: 50px;
+}
+.cover-info div:nth-child(1){
+  margin-bottom: auto;
+}
+
+.cover-info div:nth-child(2){
+  margin-top: 10px;
+  font-size: small;
+}
+.cover-info div:nth-child(2) i.fa{
+  font-size: small;
+  padding: 0 10px;
+  font-weight: 300;
+}
+
+.cover-info div:nth-child(1) p:first-child{
+  font-size: large;
+  margin-top: 0;
   
+}
+.cover-info div:nth-child(1) p:not(:first-child){
+  font-size: small;
+  margin: 0;
+}
+.music-list{
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  margin: 5px;
+}
+li{
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0 5px 0 -35px;
+  padding: 0px 10px;
   
+}
+li p{
+  flex: 0 0 25%;
   
+}
+li:nth-child(2n){
+  background-color: rgb(231, 231, 231);
+}
+.cloud-sync{
+  color: blue;
+  padding: 5px;
+  border:solid 1px black;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 0 0 40px;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+}
+aside i.las{
+  font-size: 1em;
+}
+footer {
+  display: flex;
+  flex: 0 0 10%;
+  padding: 15px;
+  justify-content: space-between;
+  color: #fff;
+  background-color: rgba(37, 74, 129, 0.9);
+}
+.now-playing {
+  display: flex;
+  margin-right: auto;
+  width: 100%;
+}
+.now-playing img{
+  padding-right: 15px;
+}
+.playing-controls{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+}
+
+
+
+
