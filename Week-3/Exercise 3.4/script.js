@@ -18,7 +18,7 @@ console.log(stack_1.items); //items array is accessible
 
 //items array is not accessible outside of createStack_2() function scope
 function createStack_2() {
-  let items = [];
+  var items = [];
   var obj = {
     push: function(item){
       items.push(item);
